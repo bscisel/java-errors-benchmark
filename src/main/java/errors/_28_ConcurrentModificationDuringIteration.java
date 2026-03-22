@@ -3,7 +3,7 @@ package errors;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _28_ConcurentModificationDuringIteration {
+public class _28_ConcurrentModificationDuringIteration {
     /*
     Error 28
     Concurrent Modification During Iteration

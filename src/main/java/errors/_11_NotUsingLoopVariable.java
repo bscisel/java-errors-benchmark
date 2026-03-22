@@ -5,7 +5,7 @@ import java.util.List;
 
 public class _11_NotUsingLoopVariable {
     /*
-    Error 12
+    Error 11
     Not Using Loop Variable
      */
 

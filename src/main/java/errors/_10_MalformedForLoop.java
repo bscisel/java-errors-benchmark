@@ -2,7 +2,7 @@ package errors;
 
 public class _10_MalformedForLoop {
     /*
-    Error 11
+    Error 10
     Malformed For Loop
      */
     public static void main(String[] args) {

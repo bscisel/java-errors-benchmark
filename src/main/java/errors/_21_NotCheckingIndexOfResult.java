@@ -1,6 +1,6 @@
 package errors;
 
-public class _21_NotCheckingIndexOxResult {
+public class _21_NotCheckingIndexOfResult {
     /*
     Error 21
     Not Checking Index Of Result
