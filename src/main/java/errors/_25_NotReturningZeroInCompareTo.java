@@ -3,7 +3,7 @@ package errors;
 public class _25_NotReturningZeroInCompareTo {
     /*
     Error 25
-    Not Returning Zero In Equals
+    Not Returning Zero In CompareTo
      */
     public static void main(String[] args) {
         /*
