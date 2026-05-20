@@ -51,6 +51,13 @@
                     <xmlOutput>true</xmlOutput>
                     <outputDirectory>${project.build.directory}/spotbugs</outputDirectory>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.h3xstream.findsecbugs</groupId>
+                        <artifactId>findsecbugs-plugin</artifactId>
+                        <version>1.14.0</version>
+                    </dependency>
+                </dependencies>
             </plugin>
 
             <plugin>
