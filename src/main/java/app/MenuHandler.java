@@ -1,18 +1,7 @@
-package errors;
+package app;
 
-public class _09_PassThroughSwitch {
-    /*
-    Error 09
-    Pass Through Switch
-     */
+public class MenuHandler {
     public static void main(String[] args) {
-        /*
-        Expected:
-            User 1
-        Received:
-            User 1
-            Invalid option
-         */
         int userChoice = 1;
 
         switch (userChoice){

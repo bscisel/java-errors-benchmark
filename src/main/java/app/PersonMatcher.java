@@ -1,21 +1,9 @@
-package errors;
+package app;
 
 import java.util.Locale;
 
-public class _24_EqualsAndHashCodeMismatch {
-    /*
-    Error 24
-    Equals And HashCode Mismatch
-     */
+public class PersonMatcher {
     public static void main(String[] args) {
-        /*
-        Expected:
-            true
-            true
-        Received:
-            false
-            true
-         */
         Person person1 = new Person("John", 30);
         Person person2 = new Person("john", 30);
         System.out.println(person1.equals(person2));

@@ -1,17 +1,7 @@
-package errors;
+package app;
 
-public class _23_MalformedEqualsImplementation {
-    /*
-    Error 23
-    Malformed Equals Implementation
-     */
+public class PersonRegistry {
     public static void main(String[] args) {
-        /*
-        Expected:
-            false
-        Received:
-            true
-         */
         Person p1 = new Person("John", 25);
         Person p2 = new Person("Kate", 25);
 

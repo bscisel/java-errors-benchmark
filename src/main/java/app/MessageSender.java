@@ -1,28 +1,9 @@
-package errors;
+package app;
 import java.util.List;
 import java.util.Arrays;
 
-public class _13_InefficientLoop {
-    /*
-    Error 13
-    Inefficient Loop
-     */
+public class MessageSender {
     public static void main(String[] args) {
-        /*
-        Creating a new Connection object for each iteration of the loop is inefficient.
-        Expected:
-            Opening connection
-            Sending: A
-            Sending: B
-            Closing connection
-        Received:
-            Opening connection
-            Sending: A
-            Closing connection
-            Opening connection
-            Sending: B
-            Closing connection
-         */
         List<String> items = Arrays.asList("A", "B");
         for (String item : items) {
             Connection connection = new Connection();

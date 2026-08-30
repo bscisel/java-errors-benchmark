@@ -1,19 +1,7 @@
-package errors;
+package app;
 
-public class _10_MalformedForLoop {
-    /*
-    Error 10
-    Malformed For Loop
-     */
+public class MatrixNormalizer {
     public static void main(String[] args) {
-        /*
-        Expected:
-            0 0
-            0 0
-        Received:
-            0 -2
-            0 -4
-         */
         int[][] testData = {
             {-1, -2,},
             {-3, -4, }
@@ -30,7 +18,7 @@ public class _10_MalformedForLoop {
 
         for (int i = 0; i < rows; i++) {
             int columns = data[i].length;
-            for (int j = 0; i < columns; i++) { // Error: i should be j
+            for (int j = 0; i < columns; i++) {
                 if (data[i][j] < 0) {
                     data[i][j] = 0;
                 }

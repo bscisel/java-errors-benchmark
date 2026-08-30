@@ -1,24 +1,12 @@
-package errors;
+package app;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.List;
 
-public class _27_UsingMutableObjectAsKeys {
-    /*
-    Error 27
-    Using Mutable Object As Keys
-     */
+public class GroupCatalog {
     public static void main(String[] args) {
-        /*
-        Expected:
-            true
-            true
-        Received:
-            true
-            false
-         */
         Set<List<String>> set = new HashSet<>();
 
         List<String> list = new ArrayList<>();

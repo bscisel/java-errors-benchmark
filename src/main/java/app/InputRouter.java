@@ -1,18 +1,7 @@
-package errors;
+package app;
 
-public class _07_MalformedIfElseChain{
-    /*
-    Error 07
-    Malformed If Else Chain
-     */
+public class InputRouter {
     public static void main(String[] args) {
-        /*
-        Expected:
-            Processing data for input 1
-        Received:
-            Processing data for input 1
-            Processing default data
-         */
         processData(1);
     }
 

@@ -1,17 +1,7 @@
-package errors;
+package app;
 
-public class _25_NotReturningZeroInCompareTo {
-    /*
-    Error 25
-    Not Returning Zero In CompareTo
-     */
+public class PersonRanking {
     public static void main(String[] args) {
-        /*
-        Expected:
-            true
-        Received:
-            false
-         */
         Person p1 = new Person(25);
         Person p2 = new Person(25);
 

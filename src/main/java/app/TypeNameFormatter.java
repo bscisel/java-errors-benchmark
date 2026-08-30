@@ -1,22 +1,8 @@
-package errors;
+package app;
 
-public class _11_NotUsingLoopVariable {
-    /*
-    Error 11
-    Not Using Loop Variable
-     */
+public class TypeNameFormatter {
 
     public static void main(String[] args) {
-        /*
-        Expected:
-            STRING
-            INTEGER
-            DOUBLE
-        Received:
-            STRING
-            null
-            null
-         */
         String[] types = {"String", "Integer", "Double"};
         String[] typesUpper = new String[types.length];
 

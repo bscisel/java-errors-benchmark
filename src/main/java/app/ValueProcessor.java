@@ -1,17 +1,7 @@
-package errors;
+package app;
 
-public class _06_NotUsingNewlyCreatedObject {
-    /*
-    Error 06
-    Not Using Newly Created Object
-     */
+public class ValueProcessor {
     public static void main(String[] args) {
-        /*
-        Expected:
-            IllegalArgumentException
-        Received:
-            Value is positive or 0
-         */
         int value = -1;
         process(value);
     }
@@ -23,4 +13,3 @@ public class _06_NotUsingNewlyCreatedObject {
         System.out.println("Value is positive or 0");
     }
 }
-

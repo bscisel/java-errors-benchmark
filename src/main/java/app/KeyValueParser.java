@@ -1,17 +1,7 @@
-package errors;
+package app;
 
-public class _21_NotCheckingIndexOfResult {
-    /*
-    Error 21
-    Not Checking Index Of Result
-     */
+public class KeyValueParser {
     public static void main(String[] args) {
-        /*
-        Expected:
-            Key: Name, Value: John
-        Received:
-            StringIndexOutOfBoundsException
-         */
         String result = parseKeyValue("NameJohn");
         System.out.println(result);
     }
